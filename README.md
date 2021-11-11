@@ -2,7 +2,7 @@
 
 This is a small utility that enables one to simulate typical network traffic when end users are viewing HTTP Live Streaming (HLS).
 
-When setting up and configuring corporate traffic shaping, this tool can come in handy for IT teams to simulate a fare amount of typicall live video streaming network traffic.
+When setting up and configuring corporate traffic shaping (QoS), corporate VPN setting, this tool can come in handy for IT teams to test their setting by simulating a fare amount of typical live video streaming network traffic.
 
 
 ## Running the tool
