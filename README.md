@@ -17,6 +17,7 @@ python3 HLS_live_traffic_generator.py https://[your_cdn_domain]/index.m3u8 test/
 In the above example command line:
 
 ```
+test/ = the folder in which the segments and playlists will be downloaded to (create the folder prior launching the script)
 30 = the number of video segments to download in that test
 10 = the number of downloader threads (one thread = one user)
 1 = the variant playlist to download (highest resolution = highest possible load on the network)
