@@ -11,7 +11,7 @@ The tool is a simple interactive command line program written in Python.
 To run the tool, launch it with the following parameters:
 
 ```
-python3 HLS_live_traffic_generator.py [m3u8_url] [download_folder] [video_segments_to_download] [nb_of_threads] [variant_number]
+python3 HLS_live_traffic_generator.py [m3u8_url] [download_folder] [nb_segments_to_download] [nb_of_threads] [variant_number]
 
 ```
 Example:
