@@ -8,7 +8,13 @@ When setting up and configuring corporate traffic shaping (QoS), corporate VPN s
 ## Running the tool
 The tool is a simple interactive command line program written in Python.
 
-To run the tool, simply type:
+To run the tool, launch it with the following parameters:
+
+```
+python3 HLS_live_traffic_generator.py [m3u8_url] [local_download_folder] [number_of_video_segments_to_download] [number_of_threads] [variant_number]
+
+```
+Example:
 
 ```
 python3 HLS_live_traffic_generator.py https://[your_cdn_domain]/index.m3u8 test/ 30 10 1
